@@ -1,0 +1,105 @@
+  /* CSS untuk memposisikan teks di tengah atas bawah samping kanan pada list pengguna */
+  td {
+    vertical-align: middle;
+    /* Posisikan teks di tengah vertikal */
+    text-align: center;
+    /* Posisikan teks di tengah horizontal */
+}
+
+ /* membuat background color trx berwana putih */
+   trix-editor {
+    background-color: #fff;
+   
+}
+
+/* Custom button styles */
+.edit-btn, .delete-btn {
+  width: 100px; /* Adjust width as needed */
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  border-color: #dc3545; 
+}
+
+.delete-btn:hover {
+  background-color: #c82333; 
+  border-color: #bd2130; 
+}
+
+
+/* List Dashboard*/
+.section.dashboard {
+  padding: 2rem 0;
+}
+
+.custom-info-box {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.custom-info-box:hover {
+  transform: translateY(-5px);
+}
+
+.custom-info-body i {
+  font-size: 3rem; 
+  color: #aeb1c4; 
+  margin-bottom: 15px; 
+  display: block;
+  text-align: center;
+}
+
+.custom-info-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center; 
+  color: #333;
+}
+
+.custom-info-text {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 15px;
+  text-align: center; 
+}
+
+/* Style untuk tombol */
+.custom-btn-primary {
+  display: block;
+  width: 100%;
+  background-color: #6f7ab9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn-primary:hover {
+  background-color: #1e2d87;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .custom-info-body i {
+      font-size: 2.5rem; 
+  }
+
+  .custom-info-title {
+      font-size: 1.1rem; 
+  }
+
+  .custom-btn-primary {
+      font-size: 0.9rem; 
+  }
+}
+

@@ -1,0 +1,22 @@
+trix-toolbar [data-trix-button-group="file-tools"] {
+  display: none !important;
+}
+
+trix-toolbar [data-trix-attribute="strike"],
+trix-toolbar [data-trix-action="decreaseNestingLevel"],
+trix-toolbar [data-trix-action="increaseNestingLevel"] {
+  display: none !important;
+}
+
+/* Menyembunyikan tombol "link" */
+trix-toolbar [data-trix-attribute="href"] {
+  display: none !important;
+}
+
+.judul-website trix-editor {
+  height: 50px;
+}
+
+.sub-judul-website trix-editor {
+  height: 50px;
+}

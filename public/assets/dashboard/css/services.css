@@ -1,0 +1,27 @@
+.card {
+    margin-bottom: 1.5rem; 
+}
+    
+.service-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+.service-card .card-body {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .service-card .card-text {
+        overflow: hidden;
+        flex-grow: 1;
+    }
+
+    .service-card .btn-group {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
